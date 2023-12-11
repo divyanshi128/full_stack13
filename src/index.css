@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(8, 8, 67);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main{
+  padding: 30px 30px 30x 0px;
+}
+
+.card{
+  border-radius: 8%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px 30px 20px 0px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(102, 102, 227);
+  box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+}
+.avatar-info{
+  width: 30%;
+  text-align: start;
+  background: transparent;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.avatar-pic{
+  border-radius: 12%;
+  height: 10%;
+  width: 50%;
+  box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.3);
+  border: transparent;
+}
+
+.card:hover{
+  background-color: rgb(12, 166, 232);
+  transform: scale(1.02);
+  transform-style: inherit;
+  transition:transform 300ms ease;
+}
